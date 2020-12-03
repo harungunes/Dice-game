@@ -13,6 +13,7 @@
 		BE9B13BF257998720049700C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9B13BE257998720049700C /* Assets.xcassets */; };
 		BE9B13C2257998720049700C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B13C0257998720049700C /* LaunchScreen.storyboard */; };
 		BE9B13CB257998980049700C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13CA257998980049700C /* MainViewController.swift */; };
+		BE9B13CF25799B210049700C /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13CE25799B210049700C /* ScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BE9B13C1257998720049700C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9B13C3257998720049700C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9B13CA257998980049700C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BE9B13CE25799B210049700C /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				BE9B13C0257998720049700C /* LaunchScreen.storyboard */,
 				BE9B13C3257998720049700C /* Info.plist */,
 				BE9B13CA257998980049700C /* MainViewController.swift */,
+				BEE41A5D2579A83000EB3227 /* View */,
 			);
 			path = DiceGame;
+			sourceTree = "<group>";
+		};
+		BEE41A5D2579A83000EB3227 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B13CE25799B210049700C /* ScreenView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				BE9B13B62579986F0049700C /* AppDelegate.swift in Sources */,
 				BE9B13B82579986F0049700C /* SceneDelegate.swift in Sources */,
+				BE9B13CF25799B210049700C /* ScreenView.swift in Sources */,
 				BE9B13CB257998980049700C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
