@@ -14,6 +14,9 @@
 		BE9B13C2257998720049700C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B13C0257998720049700C /* LaunchScreen.storyboard */; };
 		BE9B13CB257998980049700C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13CA257998980049700C /* MainViewController.swift */; };
 		BE9B13CF25799B210049700C /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13CE25799B210049700C /* ScreenView.swift */; };
+		BEE41A5F2579A9C100EB3227 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41A5E2579A9C100EB3227 /* StackView.swift */; };
+		BEE41A662579ADE000EB3227 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41A652579ADE000EB3227 /* Logo.swift */; };
+		BEE41A692579AEE600EB3227 /* Dices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41A682579AEE600EB3227 /* Dices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		BE9B13C3257998720049700C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9B13CA257998980049700C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BE9B13CE25799B210049700C /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		BEE41A5E2579A9C100EB3227 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		BEE41A652579ADE000EB3227 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		BEE41A682579AEE600EB3227 /* Dices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,7 @@
 				BE9B13BE257998720049700C /* Assets.xcassets */,
 				BE9B13C0257998720049700C /* LaunchScreen.storyboard */,
 				BE9B13C3257998720049700C /* Info.plist */,
-				BE9B13CA257998980049700C /* MainViewController.swift */,
+				BEE41A622579AD0200EB3227 /* Controller */,
 				BEE41A5D2579A83000EB3227 /* View */,
 			);
 			path = DiceGame;
@@ -74,8 +80,19 @@
 			isa = PBXGroup;
 			children = (
 				BE9B13CE25799B210049700C /* ScreenView.swift */,
+				BEE41A5E2579A9C100EB3227 /* StackView.swift */,
+				BEE41A652579ADE000EB3227 /* Logo.swift */,
+				BEE41A682579AEE600EB3227 /* Dices.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BEE41A622579AD0200EB3227 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B13CA257998980049700C /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9B13B62579986F0049700C /* AppDelegate.swift in Sources */,
+				BEE41A692579AEE600EB3227 /* Dices.swift in Sources */,
+				BEE41A5F2579A9C100EB3227 /* StackView.swift in Sources */,
 				BE9B13B82579986F0049700C /* SceneDelegate.swift in Sources */,
 				BE9B13CF25799B210049700C /* ScreenView.swift in Sources */,
+				BEE41A662579ADE000EB3227 /* Logo.swift in Sources */,
 				BE9B13CB257998980049700C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

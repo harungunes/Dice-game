@@ -14,6 +14,9 @@ class MainViewController: UIViewController {
     
     view.backgroundColor = .blue
     setViewConstraints(for: view)
+    setStackView()
+    setLogo()
+    setDices()
   }
   
 }
