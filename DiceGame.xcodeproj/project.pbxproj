@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE8BA46C2579C19D0067A9A1 /* RollButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8BA46B2579C19D0067A9A1 /* RollButton.swift */; };
 		BE9B13B62579986F0049700C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13B52579986F0049700C /* AppDelegate.swift */; };
 		BE9B13B82579986F0049700C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9B13B72579986F0049700C /* SceneDelegate.swift */; };
 		BE9B13BD2579986F0049700C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9B13BB2579986F0049700C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE8BA46B2579C19D0067A9A1 /* RollButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollButton.swift; sourceTree = "<group>"; };
 		BE9B13B22579986F0049700C /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9B13B52579986F0049700C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE9B13B72579986F0049700C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				BEE41A5E2579A9C100EB3227 /* StackView.swift */,
 				BEE41A652579ADE000EB3227 /* Logo.swift */,
 				BEE41A682579AEE600EB3227 /* Dices.swift */,
+				BE8BA46B2579C19D0067A9A1 /* RollButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8BA46C2579C19D0067A9A1 /* RollButton.swift in Sources */,
 				BE9B13B62579986F0049700C /* AppDelegate.swift in Sources */,
 				BEE41A692579AEE600EB3227 /* Dices.swift in Sources */,
 				BEE41A5F2579A9C100EB3227 /* StackView.swift in Sources */,

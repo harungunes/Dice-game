@@ -7,10 +7,12 @@
 
 import UIKit
 
+let diceArray = ["DiceOne", "DiceTwo", "DiceThree", "DiceFour", "DiceFive", "DiceSix"]
+
 let leftDice: UIImageView = {
   let leftDice = UIImageView()
   leftDice.translatesAutoresizingMaskIntoConstraints = false
-  leftDice.image = UIImage(named: "DiceTwo")
+  leftDice.image = UIImage(named: diceArray[0])
   
   return leftDice
 }()
@@ -18,7 +20,7 @@ let leftDice: UIImageView = {
 let rightDice: UIImageView = {
   let rightDice = UIImageView()
   rightDice.translatesAutoresizingMaskIntoConstraints = false
-  rightDice.image = UIImage(named: "DiceThree")
+  rightDice.image = UIImage(named: diceArray[0])
   
   return rightDice
 }()
@@ -35,4 +37,11 @@ func setDices() {
     stackView.centerXAnchor.constraint(equalTo: middleView.centerXAnchor),
     stackView.widthAnchor.constraint(equalTo: middleView.widthAnchor, multiplier: 0.7)
   ])
+}
+
+
+
+func throwDices() {
+  rightDice.image = UIImage(named: diceArray[Int.random(in: 0..<diceArray.count)])
+  leftDice.image = UIImage(named: diceArray[Int.random(in: 0..<diceArray.count)])
 }

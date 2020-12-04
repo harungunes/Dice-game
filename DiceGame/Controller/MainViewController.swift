@@ -9,6 +9,8 @@ import UIKit
 
 class MainViewController: UIViewController {
   
+  let rollButton = RollButton()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -17,6 +19,8 @@ class MainViewController: UIViewController {
     setStackView()
     setLogo()
     setDices()
+    rollButton.setButton()
   }
+  
   
 }

@@ -24,6 +24,7 @@ let middleView: UIView = {
 let bottomView: UIView = {
   let bottomView = UIView()
   bottomView.translatesAutoresizingMaskIntoConstraints = false
+  bottomView.isUserInteractionEnabled = true
   
   return bottomView
 }()
